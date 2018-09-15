@@ -1,0 +1,35 @@
+{
+  "name": "webpack-project",
+  "version": "1.0.0",
+  "description": "svg webpack inline-loader",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/littlelady2015/svg-inline-loader.git"
+  },
+  "keywords": [
+    "webpack",
+    "svg",
+    "insert"
+  ],
+  "author": "rachel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/littlelady2015/svg-inline-loader/issues"
+  },
+  "homepage": "https://github.com/littlelady2015/svg-inline-loader#readme",
+  "dependencies": {
+    "webpack-cli": "^3.1.0"
+  },
+  "devDependencies": {
+    "css-loader": "^1.0.0",
+    "style-loader": "^0.23.0",
+    "svg-inline-loader": "^0.8.0",
+    "web-webpack-plugin": "^4.0.1",
+    "webpack": "^4.19.0"
+  }
+}
